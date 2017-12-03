@@ -12,8 +12,8 @@
    "browser_action":{
       "browser_style":false,
       "default_icon":{
-         "19":"img/browsericons/icon19.png",
-         "38":"img/browsericons/icon38.png"
+         "19":"img/ublock.svg",
+         "38":"img/ublock.svg"
       },
       "default_title":"uBlock Origin",
       "default_popup":"popup.html"
@@ -60,8 +60,12 @@
    "description":"__MSG_extShortDesc__",
    "icons":{
       "16":"img/ublock.svg",
+      "24":"img/ublock.svg",
+      "32":"img/ublock.svg",
       "48":"img/ublock.svg",
-      "96":"img/ublock.svg"
+      "64":"img/ublock.svg",
+      "96":"img/ublock.svg",
+      "128":"img/ublock.svg"
    },
    "manifest_version":2,
    "name":"uBlock Origin",

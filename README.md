@@ -6,7 +6,7 @@
 
 <h1 align="center">
 <sub>
-<img  src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/icon38@2x.png"
+<img  src="https://raw.githubusercontent.com/gorhill/uBlock/master/src/img/ublock.svg"
       height="38"
       width="38">
 </sub>

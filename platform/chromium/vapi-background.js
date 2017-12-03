@@ -651,16 +651,7 @@ vAPI.tabs.injectScript = function(tabId, details, callback) {
 vAPI.setIcon = (function() {
     var browserAction = chrome.browserAction,
         titleTemplate = chrome.runtime.getManifest().name + ' ({badge})';
-    var iconPaths = [
-        {
-            '19': 'img/browsericons/icon19-off.png',
-            '38': 'img/browsericons/icon38-off.png'
-        },
-        {
-            '19': 'img/browsericons/icon19.png',
-            '38': 'img/browsericons/icon38.png'
-        }
-    ];
+    var iconPaths = ['img/ublock.svg#off', 'img/ublock.svg'];
 
     var onTabReady = function(tab, status, badge) {
         if ( vAPI.lastError() || !tab ) { return; }
